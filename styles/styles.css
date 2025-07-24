@@ -1,0 +1,50 @@
+
+/* shared items */
+.display-flex{
+    display: flex;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* color-1 */
+.grey{
+    color: #000000;
+}
+/* color-2 */
+.orange{
+    color: #E95A08;
+}
+/* color-3 */
+.black{
+    color: #252432;
+    font-weight: 300px;
+}
+/* color-4 */
+.light-grey{
+    color: #8987A1;
+}
+/* navbar styles */
+.navbar{
+    justify-content: space-between; 
+   align-items: center;
+   max-width: 1140px;
+   margin: 0 auto;
+}
+.items{
+    list-style: none;
+    margin-right: 30px;
+}
+.about-items{
+    align-items: center;
+    gap: 35px;
+}
+.about{
+    justify-content: center;
+    align-items: center;
+}
+.cart-item{
+    align-items: center;
+    justify-content: center;
+   
+}
