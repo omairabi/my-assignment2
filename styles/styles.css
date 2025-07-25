@@ -102,10 +102,23 @@ main{
     gap: 20px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: 2, 1fr;
 }
 .card-h2{
     justify-items: center;
 }
+/* flower and plant lover section styles */
+  .plant-lover-title{
+    display: flex;
+    /* border: 2px solid purple; */
+    gap: 50px;
+    margin-top: 200px;
+  }
+  .plant-lover-trusted-badge{
+    margin-top: -750px;
+    margin-left: 350px;
+
+    }
 
 
 /* responsive section */
@@ -129,6 +142,12 @@ main{
     .card{
         flex-direction: column;
         grid-template-columns: repeat(2, 1fr);
+    }
+    .plant-lover-title{
+        flex-direction: column;
+    }
+    .plant-lover-trusted-badge{
+        display: none;
     }
 
     
