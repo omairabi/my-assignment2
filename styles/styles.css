@@ -115,7 +115,7 @@ body{
   .plant-lover-title{
     display:flex;
     
-    /* border: 2px solid purple; */
+   
     gap: 50px;
     margin-top: 200px;
   }
@@ -174,7 +174,67 @@ body{
         justify-content: center;
         justify-items: center;
     }
+    /* long-image styles */
+      .long-img{
+        background-image: url(../assets/news-letter-bg.png);
+        height: 400px;
+        max-width: 1440px;
+        justify-content: center;
+        text-align: center;
+        padding-top: 80px;
+      }
+      .h1-title{
+       font-size:50px;
+       color: white;
+      }
+      .input{
+        padding: 10px 150px 10px;
+        margin-right: 10px;
+      }
+      .gap{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+      .btn{
+        background-color: #E95A08;
+        color: white;
+        padding: 10px 90px 10px;
+        border: 0px;
+        margin: 0;
 
+      } 
+      .log-img{
+        margin-top: 50px;
+      }
+      .log-p{
+        font-size: 20px;
+      }
+      .home, .div-2, .logos{
+        margin-top: 30px;
+
+      }
+      .list-1{
+        padding-top: 20px;
+      }
+      .none{
+        list-style: none;
+        font-size: 20px;
+        
+      }
+      .main-div{
+        display: flex;
+        margin: auto;
+      }
+      .div-2{
+        display: flex;
+      }
+      .list-3{
+        display: flex;
+      }
+      .logos{
+        padding-right: 30px;
+      }
 
 /* responsive section */
 @media screen and (max-width:576px) {
@@ -206,6 +266,19 @@ body{
     }
     .deals{
         padding-top: 0;
+    }
+    .image-1, .image-2{
+        width: 300px;
+    }
+    .image-3{
+        width: 300px;
+        height: 250px;
+    }
+    .image-options{
+        flex-direction: column;
+    }
+    .long-img{
+        width: 100%;
     }
 
     
