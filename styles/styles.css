@@ -18,7 +18,7 @@ main{
 /* color-3 */
 .black{
     color: #252432;
-    font-weight: 300px;
+    font-weight: 10px;
 }
 /* color-4 */
 .light-grey{
@@ -29,6 +29,16 @@ main{
 }
 .section-description{
     font-size: 30px;
+}
+.black2{
+    color: #000000;
+    font-weight: 700px;
+}
+.btn-primary{
+    background-color: #E95A08;
+    color: white;
+    padding: 10px 90px 10px;
+    border: 0px;
 }
 
 /* navbar styles */
@@ -82,6 +92,19 @@ main{
 .our-plants-header{
     justify-items: center;
 
+}
+/* card section */
+.card-items{
+    /* border: 1px solid purple; */
+    gap: 20px;
+}
+.card{
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.card-h2{
+    justify-items: center;
 }
 
 
