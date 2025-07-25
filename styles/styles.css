@@ -4,7 +4,7 @@
     display: flex;
 }
 main{
-    max-width: 1140px;
+   max-width: 1140px;
     margin: 0 auto;
 }
 /* color-1 */
@@ -24,6 +24,13 @@ main{
 .light-grey{
     color: #8987A1;
 }
+.section-title{
+    font-size:50px;
+}
+.section-description{
+    font-size: 30px;
+}
+
 /* navbar styles */
 .navbar{
     justify-content: space-between; 
@@ -47,4 +54,55 @@ main{
     align-items: center;
     justify-content: center;
    
+}
+/* banner section fresh flowers */
+.banner{
+    /* padding-top: 100px; */
+    /* gap: 110px; */
+    /* justify-content: center; */
+    align-items: center;
+    /* max-width: 1140px; */
+   /* margin: 0 auto; */
+   justify-content: space-between;
+   padding: 30px;
+   gap: 20px;
+}
+.banner-item{
+    /* padding-right: 100px; */
+    gap: 0;
+    padding-top: 100px;
+}
+.banner-img img{
+    /* padding-right: 50px; */
+    /* width: 100%; */
+    /* max-width: 550px; */
+}
+
+/* our plants secction */
+.our-plants-header{
+    justify-items: center;
+
+}
+
+
+/* responsive section */
+@media screen and (max-width:576px) {
+    .navbar, .about-items, {
+        flex-direction:row;
+    }
+    .ul-item{
+        display: none;
+    }
+    .banner{
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+    .banner-item{
+        padding: 0;
+    }
+    .section-description, .banner-img{
+        padding: 0;
+    }
+
+    
 }
