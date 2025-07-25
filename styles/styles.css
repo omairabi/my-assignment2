@@ -126,6 +126,10 @@ main{
     .section-description, .banner-img{
         padding: 0;
     }
+    .card{
+        flex-direction: column;
+        grid-template-columns: repeat(2, 1fr);
+    }
 
     
 }
