@@ -3,10 +3,12 @@
 .display-flex{
     display: flex;
 }
-main{
+body{
    max-width: 1140px;
     margin: 0 auto;
+
 }
+
 /* color-1 */
 .grey{
     color: #000000;
@@ -76,11 +78,13 @@ main{
    justify-content: space-between;
    padding: 30px;
    gap: 20px;
+   display: flex;
 }
 .banner-item{
     /* padding-right: 100px; */
     gap: 0;
     padding-top: 100px;
+    
 }
 .banner-img img{
     /* padding-right: 50px; */
@@ -109,7 +113,8 @@ main{
 }
 /* flower and plant lover section styles */
   .plant-lover-title{
-    display: flex;
+    display:flex;
+    
     /* border: 2px solid purple; */
     gap: 50px;
     margin-top: 200px;
@@ -118,6 +123,56 @@ main{
     margin-top: -750px;
     margin-left: 350px;
 
+    }
+    /* plants deal section */
+    .deals{
+       padding-top: 500px;
+       text-align: center;
+       
+    }
+    /* box model styles */
+    .image-1{
+        background-image: url(../assets/deal-bloom.png);
+        height: 200px;
+        width: 300px;
+        border-radius: 14px;
+        color: white;
+        font-weight: 500;
+        text-align: center;
+         filter:brightness(70%);
+        
+        
+    }
+    .image-2{
+        background-image: url(../assets/deal-ana.png);
+        height: 180px;
+        width: 300px;
+        border-radius: 14px;
+        color: white;
+        font-weight: 500;
+        text-align: center;
+         filter:brightness(70%);
+    }
+    .image-3{
+        background-image: url(../assets/deal-zabo.png);
+        height: 400px;
+        width: 600px;
+        color: white;
+        font-weight: 500;
+        text-align: center;
+        align-items: center;
+        border-radius: 20px;
+        filter:brightness(70%);
+    }
+    .images{
+        gap: 500px;
+    }
+    .image-options{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
     }
 
 
@@ -148,6 +203,9 @@ main{
     }
     .plant-lover-trusted-badge{
         display: none;
+    }
+    .deals{
+        padding-top: 0;
     }
 
     
